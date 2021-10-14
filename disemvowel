@@ -1,0 +1,8 @@
+def disemvowel(string):
+    vowel = "AEIOUaeiou"
+    newl = ""
+    for i in string:
+      if i not in vowel:
+        newl += i
+    return newl
+print(disemvowel("Chad Toomer"))
